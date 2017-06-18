@@ -9,9 +9,9 @@
 - IntelliJIDEA_Project：使用IntelliJ IDEA编写的代码；
 - AndroidStudio_Project：使用AndroidStudio编写的代码；
 
-## Blog
+## Article
 
-- [Kotlin教程（一）：走进Kotlin的世界](http://blog.coderclock.com/2017/06/11/kotlin/kotlin-lessons-0/)
+- [Kotlin学习笔记（一）：走进Kotlin的世界](http://blog.coderclock.com/2017/06/11/kotlin/kotlin-lessons-0/)
 
 ## License
 
