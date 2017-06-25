@@ -9,6 +9,5 @@ fun main(args: Array<String>) {
     println("Hello, world!")
 
     KotlinStatic.kotlinInt
-
     KotlinStatic.getInstance()
 }
