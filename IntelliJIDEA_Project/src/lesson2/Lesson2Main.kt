@@ -6,7 +6,13 @@ package lesson2
 
 fun main(args: Array<String>) {
 
-    var coder = Coder(1 , "coder")
-    println("coder id: ${coder.id}")
+    var coder = Coder(1, "coder")//创建一个Coder对象
+
+    println("coder id: ${coder.id}")//打印输出coder对象的信息
     println("coder name: ${coder.name}")
+
+    var person = Person("clock" , 18 , 2)
+    println("user id: ${person.id}")
+    println("user name: ${person.name}")
+    println("user age: ${person.age}")
 }
