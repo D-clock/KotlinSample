@@ -11,8 +11,15 @@ fun main(args: Array<String>) {
     println("coder id: ${coder.id}")//打印输出coder对象的信息
     println("coder name: ${coder.name}")
 
-    var person = Person("clock" , 18 , 2)
+    var person = Person("clock", 18, 2)
     println("user id: ${person.id}")
     println("user name: ${person.name}")
     println("user age: ${person.age}")
+
+    var student = Student()
+    println("student: ${student.id}")
+
+    var animal = Animal("Tom")
+    var cat = Cat("Tom", "Fish")
+
 }
