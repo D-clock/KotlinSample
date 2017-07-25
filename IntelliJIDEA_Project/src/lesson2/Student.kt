@@ -5,9 +5,23 @@ package lesson2
  */
 class Student {
 
+    var test: Int
+        get() = this.test
+        set(value) {
+            this.test = value
+        }
+
+    var test2: String?
+        get() = this.test2
+        set(value) {
+            this.test2 = test2
+        }
+    val test3: Any?
+        get() = 1
+
     var id = -1
     var name = "unknown"
-    var age : Int
+    var age: Int
         get() = 1
         set(value) {
             age = value
