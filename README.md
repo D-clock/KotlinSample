@@ -11,6 +11,8 @@
 
 ## Article
 
+- [Kotlin学习笔记（三）：类和对象](http://blog.coderclock.com/2017/07/30/kotlin/kotlin-notes-2/)
+- [Kotlin学习笔记（二）：变量与函数](http://blog.coderclock.com/2017/06/25/kotlin/kotlin-notes-1/)
 - [Kotlin学习笔记（一）：走进Kotlin的世界](http://blog.coderclock.com/2017/06/11/kotlin/kotlin-lessons-0/)
 
 ## License
