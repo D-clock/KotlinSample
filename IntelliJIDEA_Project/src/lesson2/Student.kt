@@ -5,30 +5,14 @@ package lesson2
  */
 class Student {
 
-    var test: Int
-        get() = this.test
+    var name = "D_clock爱吃葱花" //名字属性可变，用var
+    val birthday = "1994-10-24" //生日属性不可变，用val
+        get() = field
+    var age: Int? = 0
+        get() = field
         set(value) {
-            this.test = value
+            field = value
         }
+    lateinit var ageStr: String //String不是基础类型，可以使用lateinit初始化
 
-    var test2: String?
-        get() = this.test2
-        set(value) {
-            this.test2 = test2
-        }
-    val test3: Any?
-        get() = 1
-
-    var id = -1
-    var name = "unknown"
-    var age: Int
-        get() = 1
-        set(value) {
-            age = value
-        }
-    var stringRepresentation: String
-        get() = this.toString()
-        set(value) {
-            stringRepresentation = value
-        }
 }
